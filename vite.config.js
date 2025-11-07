@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: './', // ✅ important for proper asset paths
+  base: '/ByreiX---Frontend/', 
 })
